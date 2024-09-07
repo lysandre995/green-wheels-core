@@ -1,7 +1,7 @@
 import Dto from "../dto";
 
 export default interface UserDto extends Dto {
-    nickname: string;
+    username: string;
     name: string;
     email: string;
     telephone: string;
