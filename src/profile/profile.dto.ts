@@ -6,6 +6,6 @@ import { TravelTimeOptionEnum } from "./travel-time-option.enum";
 export default interface ProfileDto extends Dto {
     car: CarDto;
     availableSeats: number;
-    prefrences: TravelPreferencesDto;
+    preferences: TravelPreferencesDto;
     travelTime: TravelTimeOptionEnum;
 }
