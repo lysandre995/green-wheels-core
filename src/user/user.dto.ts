@@ -6,5 +6,6 @@ export default interface UserDto extends Dto {
     email: string;
     telephone: string;
     password: string;
-    community?: string;
+    community?: number;
+    communityVerificationCode?: string;
 }

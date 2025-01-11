@@ -5,5 +5,5 @@ export enum TravelTimeOptionEnum {
     Evening = "Evening (5 PM - 9 PM)",
     Night = "Night (9 PM - 12 AM)",
     LateNight = "Late Night (12 AM - 5 AM)",
-    Flexible = "Flexible (Any Time)",
+    Flexible = "Flexible (Any Time)"
 }
