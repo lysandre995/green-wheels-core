@@ -8,4 +8,6 @@ export default interface UserDto extends Dto {
     password: string;
     community?: number;
     communityVerificationCode?: string;
+    averageRate?: number;
+    numberOfEvaluations?: number;
 }

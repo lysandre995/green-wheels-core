@@ -1,4 +1,9 @@
 import Dto from "../dto";
+enum RideState {
+    Ready = "Ready",
+    Started = "Started",
+    Concluded = "Concluded"
+}
 
 export default interface Location {
     lat: number;
@@ -13,4 +18,5 @@ export default interface RideDto extends Dto {
     end: Location;
     dateTime: string;
     communityId?: number;
+    state: RideState;
 }
